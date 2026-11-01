@@ -1,7 +1,5 @@
-
 import re
 from collections import Counter
-
 import numpy as np
 import pandas as pd
 from scipy import stats
@@ -10,7 +8,6 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-
 BASE = "sephora-analysis/datasets"
 reviews = pd.read_csv(f"{BASE}/skincare_products_reviews.csv", index_col=0, low_memory=False)
 products = pd.read_csv(f"{BASE}/product_info.csv", low_memory=False)
