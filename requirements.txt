@@ -1,0 +1,7 @@
+# Libraries used by week2_pilot_analysis.py (tested with Python 3.12 and also reproduced in Google Colab, Python 3.13)
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+vaderSentiment==3.3.2
+matplotlib==3.10.8
