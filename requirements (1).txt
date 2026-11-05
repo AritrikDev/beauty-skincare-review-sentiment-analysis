@@ -1,0 +1,11 @@
+# Libraries used by week2_pilot_analysis.py and week3_cleaning_pipeline.py
+# (tested with Python 3.12; the Week 2 script was also reproduced in Google Colab with Python 3.13)
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.8
+vaderSentiment==3.3.2
+ftfy==6.3.1
+langdetect==1.0.9
+rapidfuzz==3.14.6
